@@ -9,5 +9,7 @@ require 'pry'
 # }
 
 def get_the_values(groceries)
-  #code your solution here!
+  groceries.values.sort do |a, b|
+    a<=>b
+  binding.pry
 end
